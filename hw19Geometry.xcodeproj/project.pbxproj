@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E6D8BB1938975600B11124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BA1938975600B11124 /* Foundation.framework */; };
+		84E6D8BD1938975600B11124 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BC1938975600B11124 /* CoreGraphics.framework */; };
+		84E6D8BF1938975600B11124 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BE1938975600B11124 /* UIKit.framework */; };
+		84E6D8C51938975600B11124 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8C31938975600B11124 /* InfoPlist.strings */; };
+		84E6D8C71938975600B11124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D8C61938975600B11124 /* main.m */; };
+		84E6D8CB1938975600B11124 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D8CA1938975600B11124 /* ASAppDelegate.m */; };
+		84E6D8CE1938975600B11124 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8CC1938975600B11124 /* Main_iPhone.storyboard */; };
+		84E6D8D11938975600B11124 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8CF1938975600B11124 /* Main_iPad.storyboard */; };
+		84E6D8D41938975600B11124 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D8D31938975600B11124 /* ASViewController.m */; };
+		84E6D8D61938975600B11124 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8D51938975600B11124 /* Images.xcassets */; };
+		84E6D8DD1938975600B11124 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8DC1938975600B11124 /* XCTest.framework */; };
+		84E6D8DE1938975600B11124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BA1938975600B11124 /* Foundation.framework */; };
+		84E6D8DF1938975600B11124 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BE1938975600B11124 /* UIKit.framework */; };
+		84E6D8E71938975600B11124 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84E6D8E51938975600B11124 /* InfoPlist.strings */; };
+		84E6D8E91938975600B11124 /* hw19GeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6D8E81938975600B11124 /* hw19GeometryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E6D8E01938975600B11124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E6D8AF1938975600B11124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E6D8B61938975600B11124;
+			remoteInfo = hw19Geometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E6D8B71938975600B11124 /* hw19Geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw19Geometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E6D8BA1938975600B11124 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84E6D8BC1938975600B11124 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84E6D8BE1938975600B11124 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84E6D8C21938975600B11124 /* hw19Geometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hw19Geometry-Info.plist"; sourceTree = "<group>"; };
+		84E6D8C41938975600B11124 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84E6D8C61938975600B11124 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E6D8C81938975600B11124 /* hw19Geometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hw19Geometry-Prefix.pch"; sourceTree = "<group>"; };
+		84E6D8C91938975600B11124 /* ASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		84E6D8CA1938975600B11124 /* ASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		84E6D8CD1938975600B11124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		84E6D8D01938975600B11124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		84E6D8D21938975600B11124 /* ASViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
+		84E6D8D31938975600B11124 /* ASViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		84E6D8D51938975600B11124 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84E6D8DB1938975600B11124 /* hw19GeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hw19GeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E6D8DC1938975600B11124 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84E6D8E41938975600B11124 /* hw19GeometryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hw19GeometryTests-Info.plist"; sourceTree = "<group>"; };
+		84E6D8E61938975600B11124 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84E6D8E81938975600B11124 /* hw19GeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw19GeometryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E6D8B41938975600B11124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6D8BD1938975600B11124 /* CoreGraphics.framework in Frameworks */,
+				84E6D8BF1938975600B11124 /* UIKit.framework in Frameworks */,
+				84E6D8BB1938975600B11124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E6D8D81938975600B11124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6D8DD1938975600B11124 /* XCTest.framework in Frameworks */,
+				84E6D8DF1938975600B11124 /* UIKit.framework in Frameworks */,
+				84E6D8DE1938975600B11124 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E6D8AE1938975600B11124 = {
+			isa = PBXGroup;
+			children = (
+				84E6D8C01938975600B11124 /* hw19Geometry */,
+				84E6D8E21938975600B11124 /* hw19GeometryTests */,
+				84E6D8B91938975600B11124 /* Frameworks */,
+				84E6D8B81938975600B11124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E6D8B81938975600B11124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8B71938975600B11124 /* hw19Geometry.app */,
+				84E6D8DB1938975600B11124 /* hw19GeometryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E6D8B91938975600B11124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8BA1938975600B11124 /* Foundation.framework */,
+				84E6D8BC1938975600B11124 /* CoreGraphics.framework */,
+				84E6D8BE1938975600B11124 /* UIKit.framework */,
+				84E6D8DC1938975600B11124 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E6D8C01938975600B11124 /* hw19Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8C91938975600B11124 /* ASAppDelegate.h */,
+				84E6D8CA1938975600B11124 /* ASAppDelegate.m */,
+				84E6D8CC1938975600B11124 /* Main_iPhone.storyboard */,
+				84E6D8CF1938975600B11124 /* Main_iPad.storyboard */,
+				84E6D8D21938975600B11124 /* ASViewController.h */,
+				84E6D8D31938975600B11124 /* ASViewController.m */,
+				84E6D8D51938975600B11124 /* Images.xcassets */,
+				84E6D8C11938975600B11124 /* Supporting Files */,
+			);
+			path = hw19Geometry;
+			sourceTree = "<group>";
+		};
+		84E6D8C11938975600B11124 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8C21938975600B11124 /* hw19Geometry-Info.plist */,
+				84E6D8C31938975600B11124 /* InfoPlist.strings */,
+				84E6D8C61938975600B11124 /* main.m */,
+				84E6D8C81938975600B11124 /* hw19Geometry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E6D8E21938975600B11124 /* hw19GeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8E81938975600B11124 /* hw19GeometryTests.m */,
+				84E6D8E31938975600B11124 /* Supporting Files */,
+			);
+			path = hw19GeometryTests;
+			sourceTree = "<group>";
+		};
+		84E6D8E31938975600B11124 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E6D8E41938975600B11124 /* hw19GeometryTests-Info.plist */,
+				84E6D8E51938975600B11124 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E6D8B61938975600B11124 /* hw19Geometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E6D8EC1938975600B11124 /* Build configuration list for PBXNativeTarget "hw19Geometry" */;
+			buildPhases = (
+				84E6D8B31938975600B11124 /* Sources */,
+				84E6D8B41938975600B11124 /* Frameworks */,
+				84E6D8B51938975600B11124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hw19Geometry;
+			productName = hw19Geometry;
+			productReference = 84E6D8B71938975600B11124 /* hw19Geometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E6D8DA1938975600B11124 /* hw19GeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E6D8EF1938975600B11124 /* Build configuration list for PBXNativeTarget "hw19GeometryTests" */;
+			buildPhases = (
+				84E6D8D71938975600B11124 /* Sources */,
+				84E6D8D81938975600B11124 /* Frameworks */,
+				84E6D8D91938975600B11124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E6D8E11938975600B11124 /* PBXTargetDependency */,
+			);
+			name = hw19GeometryTests;
+			productName = hw19GeometryTests;
+			productReference = 84E6D8DB1938975600B11124 /* hw19GeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E6D8AF1938975600B11124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Arman Davtyan";
+				TargetAttributes = {
+					84E6D8DA1938975600B11124 = {
+						TestTargetID = 84E6D8B61938975600B11124;
+					};
+				};
+			};
+			buildConfigurationList = 84E6D8B21938975600B11124 /* Build configuration list for PBXProject "hw19Geometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E6D8AE1938975600B11124;
+			productRefGroup = 84E6D8B81938975600B11124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E6D8B61938975600B11124 /* hw19Geometry */,
+				84E6D8DA1938975600B11124 /* hw19GeometryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E6D8B51938975600B11124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6D8D11938975600B11124 /* Main_iPad.storyboard in Resources */,
+				84E6D8D61938975600B11124 /* Images.xcassets in Resources */,
+				84E6D8CE1938975600B11124 /* Main_iPhone.storyboard in Resources */,
+				84E6D8C51938975600B11124 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E6D8D91938975600B11124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6D8E71938975600B11124 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E6D8B31938975600B11124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6D8CB1938975600B11124 /* ASAppDelegate.m in Sources */,
+				84E6D8D41938975600B11124 /* ASViewController.m in Sources */,
+				84E6D8C71938975600B11124 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E6D8D71938975600B11124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6D8E91938975600B11124 /* hw19GeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E6D8E11938975600B11124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E6D8B61938975600B11124 /* hw19Geometry */;
+			targetProxy = 84E6D8E01938975600B11124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E6D8C31938975600B11124 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6D8C41938975600B11124 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84E6D8CC1938975600B11124 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6D8CD1938975600B11124 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		84E6D8CF1938975600B11124 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6D8D01938975600B11124 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		84E6D8E51938975600B11124 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6D8E61938975600B11124 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E6D8EA1938975600B11124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E6D8EB1938975600B11124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E6D8ED1938975600B11124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hw19Geometry/hw19Geometry-Prefix.pch";
+				INFOPLIST_FILE = "hw19Geometry/hw19Geometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84E6D8EE1938975600B11124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hw19Geometry/hw19Geometry-Prefix.pch";
+				INFOPLIST_FILE = "hw19Geometry/hw19Geometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84E6D8F01938975600B11124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hw19Geometry.app/hw19Geometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hw19Geometry/hw19Geometry-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hw19GeometryTests/hw19GeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84E6D8F11938975600B11124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hw19Geometry.app/hw19Geometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hw19Geometry/hw19Geometry-Prefix.pch";
+				INFOPLIST_FILE = "hw19GeometryTests/hw19GeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E6D8B21938975600B11124 /* Build configuration list for PBXProject "hw19Geometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E6D8EA1938975600B11124 /* Debug */,
+				84E6D8EB1938975600B11124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E6D8EC1938975600B11124 /* Build configuration list for PBXNativeTarget "hw19Geometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E6D8ED1938975600B11124 /* Debug */,
+				84E6D8EE1938975600B11124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84E6D8EF1938975600B11124 /* Build configuration list for PBXNativeTarget "hw19GeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E6D8F01938975600B11124 /* Debug */,
+				84E6D8F11938975600B11124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E6D8AF1938975600B11124 /* Project object */;
+}
