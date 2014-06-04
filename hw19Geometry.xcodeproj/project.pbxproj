@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B1E02C1938BEE500B63238 /* ASCheckerBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1E02B1938BEE500B63238 /* ASCheckerBoard.m */; };
 		84E6D8BB1938975600B11124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BA1938975600B11124 /* Foundation.framework */; };
 		84E6D8BD1938975600B11124 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BC1938975600B11124 /* CoreGraphics.framework */; };
 		84E6D8BF1938975600B11124 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6D8BE1938975600B11124 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84B1E02A1938BEE500B63238 /* ASCheckerBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCheckerBoard.h; sourceTree = "<group>"; };
+		84B1E02B1938BEE500B63238 /* ASCheckerBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCheckerBoard.m; sourceTree = "<group>"; };
 		84E6D8B71938975600B11124 /* hw19Geometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw19Geometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E6D8BA1938975600B11124 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84E6D8BC1938975600B11124 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 		84E6D8C01938975600B11124 /* hw19Geometry */ = {
 			isa = PBXGroup;
 			children = (
+				84B1E02B1938BEE500B63238 /* ASCheckerBoard.m */,
+				84B1E02A1938BEE500B63238 /* ASCheckerBoard.h */,
 				84E6D8C91938975600B11124 /* ASAppDelegate.h */,
 				84E6D8CA1938975600B11124 /* ASAppDelegate.m */,
 				84E6D8CC1938975600B11124 /* Main_iPhone.storyboard */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B1E02C1938BEE500B63238 /* ASCheckerBoard.m in Sources */,
 				84E6D8CB1938975600B11124 /* ASAppDelegate.m in Sources */,
 				84E6D8D41938975600B11124 /* ASViewController.m in Sources */,
 				84E6D8C71938975600B11124 /* main.m in Sources */,
@@ -471,6 +477,7 @@
 				84E6D8EE1938975600B11124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E6D8EF1938975600B11124 /* Build configuration list for PBXNativeTarget "hw19GeometryTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				84E6D8F11938975600B11124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
